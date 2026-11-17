@@ -1,0 +1,13 @@
+{
+  "name": "ci-battery-lab",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Flexwerk: browser-only plant simulator for German commercial sites (battery, EV fleet, heat pump)",
+  "license": "MIT",
+  "workspaces": ["engine", "app"],
+  "scripts": {
+    "test": "npm run test -w engine",
+    "dev": "npm run dev -w app",
+    "build": "npm run build -w app"
+  }
+}

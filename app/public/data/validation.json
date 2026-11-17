@@ -1,0 +1,376 @@
+{
+ "summary": {
+  "pass": 27,
+  "flag": 1,
+  "fail": 0,
+  "info": 5
+ },
+ "results": {
+  "prices": [
+   {
+    "check": "price monthly mean 2025-10",
+    "compared": "Energy-Charts mean vs SMARD monthly value",
+    "ours": 84.4,
+    "reference": 84.4,
+    "unit": "EUR/MWh",
+    "diffPct": 0.0,
+    "tolerancePct": 1.0,
+    "status": "pass",
+    "note": "independent publication pipeline (SMARD chart data, filter 4169)"
+   },
+   {
+    "check": "price monthly mean 2025-11",
+    "compared": "Energy-Charts mean vs SMARD monthly value",
+    "ours": 101.88,
+    "reference": 101.88,
+    "unit": "EUR/MWh",
+    "diffPct": 0.0,
+    "tolerancePct": 1.0,
+    "status": "pass",
+    "note": "independent publication pipeline (SMARD chart data, filter 4169)"
+   },
+   {
+    "check": "price monthly mean 2025-12",
+    "compared": "Energy-Charts mean vs SMARD monthly value",
+    "ours": 93.47,
+    "reference": 93.47,
+    "unit": "EUR/MWh",
+    "diffPct": -0.0,
+    "tolerancePct": 1.0,
+    "status": "pass",
+    "note": "independent publication pipeline (SMARD chart data, filter 4169)"
+   },
+   {
+    "check": "price monthly mean 2026-01",
+    "compared": "Energy-Charts mean vs SMARD monthly value",
+    "ours": 110.09,
+    "reference": 110.09,
+    "unit": "EUR/MWh",
+    "diffPct": 0.0,
+    "tolerancePct": 1.0,
+    "status": "pass",
+    "note": "independent publication pipeline (SMARD chart data, filter 4169)"
+   },
+   {
+    "check": "price monthly mean 2026-02",
+    "compared": "Energy-Charts mean vs SMARD monthly value",
+    "ours": 96.58,
+    "reference": 96.58,
+    "unit": "EUR/MWh",
+    "diffPct": -0.0,
+    "tolerancePct": 1.0,
+    "status": "pass",
+    "note": "independent publication pipeline (SMARD chart data, filter 4169)"
+   },
+   {
+    "check": "price monthly mean 2026-03",
+    "compared": "Energy-Charts mean vs SMARD monthly value",
+    "ours": 99.29,
+    "reference": 99.29,
+    "unit": "EUR/MWh",
+    "diffPct": -0.0,
+    "tolerancePct": 1.0,
+    "status": "pass",
+    "note": "independent publication pipeline (SMARD chart data, filter 4169)"
+   },
+   {
+    "check": "price monthly mean 2026-04",
+    "compared": "Energy-Charts mean vs SMARD monthly value",
+    "ours": 78.52,
+    "reference": 78.52,
+    "unit": "EUR/MWh",
+    "diffPct": -0.01,
+    "tolerancePct": 1.0,
+    "status": "pass",
+    "note": "independent publication pipeline (SMARD chart data, filter 4169)"
+   },
+   {
+    "check": "price monthly mean 2026-05",
+    "compared": "Energy-Charts mean vs SMARD monthly value",
+    "ours": 97.54,
+    "reference": 97.54,
+    "unit": "EUR/MWh",
+    "diffPct": -0.0,
+    "tolerancePct": 1.0,
+    "status": "pass",
+    "note": "independent publication pipeline (SMARD chart data, filter 4169)"
+   },
+   {
+    "check": "price monthly mean 2026-06",
+    "compared": "Energy-Charts mean vs SMARD monthly value",
+    "ours": 109.52,
+    "reference": 109.52,
+    "unit": "EUR/MWh",
+    "diffPct": -0.0,
+    "tolerancePct": 1.0,
+    "status": "pass",
+    "note": "independent publication pipeline (SMARD chart data, filter 4169)"
+   },
+   {
+    "check": "price monthly mean 2026-07",
+    "compared": "Energy-Charts mean vs SMARD monthly value",
+    "ours": 105.45,
+    "reference": 105.45,
+    "unit": "EUR/MWh",
+    "diffPct": -0.0,
+    "tolerancePct": 1.0,
+    "status": "pass",
+    "note": "independent publication pipeline (SMARD chart data, filter 4169)"
+   },
+   {
+    "check": "price monthly mean 2026-08",
+    "compared": "Energy-Charts mean vs SMARD monthly value",
+    "ours": 126.89,
+    "reference": 126.89,
+    "unit": "EUR/MWh",
+    "diffPct": 0.0,
+    "tolerancePct": 1.0,
+    "status": "pass",
+    "note": "independent publication pipeline (SMARD chart data, filter 4169)"
+   },
+   {
+    "check": "price monthly mean 2026-09",
+    "compared": "Energy-Charts mean vs SMARD monthly value",
+    "ours": 144.82,
+    "reference": 144.82,
+    "unit": "EUR/MWh",
+    "diffPct": 0.0,
+    "tolerancePct": 1.0,
+    "status": "pass",
+    "note": "independent publication pipeline (SMARD chart data, filter 4169)"
+   },
+   {
+    "check": "price calendar-2025 mean",
+    "compared": "time-weighted mean 2025 vs BNetzA published annual average",
+    "ours": 89.32,
+    "reference": 89.32,
+    "unit": "EUR/MWh",
+    "diffPct": 0.0,
+    "tolerancePct": 1.0,
+    "status": "pass",
+    "note": "BNetzA press release 05.01.2026 'Daten zum Strommarkt 2025' (SMARD): 89.32 EUR/MWh"
+   }
+  ],
+  "pv": [
+   {
+    "check": "PV south30 model-year yield",
+    "compared": "Oct25-Sep26 yield vs PVGIS 2005-2023 long-term mean (SARAH3)",
+    "ours": 1164.0,
+    "reference": 1079.14,
+    "unit": "kWh/kWp",
+    "diffPct": 7.86,
+    "tolerancePct": 11.3,
+    "status": "pass",
+    "note": "tolerance = 2 x PVGIS inter-annual SD (61.13 kWh/kWp); a single year can differ from the long-term mean"
+   },
+   {
+    "check": "PV east-west15 model-year yield",
+    "compared": "Oct25-Sep26 yield vs PVGIS long-term (mean of E and W planes)",
+    "ours": 967.2,
+    "reference": 890.38,
+    "unit": "kWh/kWp",
+    "diffPct": 8.63,
+    "tolerancePct": 11.3,
+    "status": "pass",
+    "note": "same tolerance as above"
+   },
+   {
+    "check": "PV south30 yield 2020 (same year)",
+    "compared": "our model on DWD station data vs PVGIS hourly simulation, same year",
+    "ours": 1165.32,
+    "reference": 1129.11,
+    "unit": "kWh/kWp",
+    "diffPct": 3.21,
+    "tolerancePct": 5.0,
+    "status": "pass",
+    "note": "isolates model + data differences from weather; PVGIS uses satellite irradiance (SARAH3)"
+   },
+   {
+    "check": "PV south30 yield 2021 (same year)",
+    "compared": "our model on DWD station data vs PVGIS hourly simulation, same year",
+    "ours": 1068.53,
+    "reference": 1020.83,
+    "unit": "kWh/kWp",
+    "diffPct": 4.67,
+    "tolerancePct": 5.0,
+    "status": "pass",
+    "note": "isolates model + data differences from weather; PVGIS uses satellite irradiance (SARAH3)"
+   },
+   {
+    "check": "PV south30 yield 2022 (same year)",
+    "compared": "our model on DWD station data vs PVGIS hourly simulation, same year",
+    "ours": 1208.79,
+    "reference": 1158.26,
+    "unit": "kWh/kWp",
+    "diffPct": 4.36,
+    "tolerancePct": 5.0,
+    "status": "pass",
+    "note": "isolates model + data differences from weather; PVGIS uses satellite irradiance (SARAH3)"
+   },
+   {
+    "check": "PV south30 yield 2023 (same year)",
+    "compared": "our model on DWD station data vs PVGIS hourly simulation, same year",
+    "ours": 1076.04,
+    "reference": 1032.58,
+    "unit": "kWh/kWp",
+    "diffPct": 4.21,
+    "tolerancePct": 5.0,
+    "status": "pass",
+    "note": "isolates model + data differences from weather; PVGIS uses satellite irradiance (SARAH3)"
+   }
+  ],
+  "load": [
+   {
+    "check": "factory: sub-meters vs main meter",
+    "compared": "sum of all industrial3 sub-meters vs gross load (import + PV)",
+    "ours": 630009.35,
+    "reference": 724859.02,
+    "unit": "kWh",
+    "diffPct": -13.09,
+    "tolerancePct": 100.0,
+    "status": "pass",
+    "note": "sub-meters cover 87 % of the building; the rest is unmetered loads (lighting, sockets...). A sum ABOVE the main meter would indicate a data error; below is expected."
+   },
+   {
+    "check": "load_warehouse: peak vs 99.9th percentile",
+    "compared": "annual peak vs 99.9th percentile (spike test)",
+    "ours": 120.86,
+    "reference": 101.49,
+    "unit": "kW",
+    "diffPct": 19.09,
+    "tolerancePct": 25.0,
+    "status": "pass",
+    "note": "a peak far above the 99.9th percentile would suggest a meter artefact"
+   },
+   {
+    "check": "load_warehouse: shape",
+    "compared": "weekday vs weekend mean, full-load hours",
+    "status": "info",
+    "weekdayMeanKW": 38.8,
+    "weekendMeanKW": 27.5,
+    "weekendToWeekday": 0.71,
+    "annualKWh": 311830,
+    "peakKW": 120.9,
+    "fullLoadHours": 2580,
+    "note": "BDEW standard load profiles were NOT used as reference (licence not open); shape is checked for plausibility only"
+   },
+   {
+    "check": "load_factory: peak vs 99.9th percentile",
+    "compared": "annual peak vs 99.9th percentile (spike test)",
+    "ours": 220.28,
+    "reference": 208.91,
+    "unit": "kW",
+    "diffPct": 5.44,
+    "tolerancePct": 25.0,
+    "status": "pass",
+    "note": "a peak far above the 99.9th percentile would suggest a meter artefact"
+   },
+   {
+    "check": "load_factory: shape",
+    "compared": "weekday vs weekend mean, full-load hours",
+    "status": "info",
+    "weekdayMeanKW": 90.3,
+    "weekendMeanKW": 63.4,
+    "weekendToWeekday": 0.7,
+    "annualKWh": 723530,
+    "peakKW": 220.3,
+    "fullLoadHours": 3285,
+    "note": "BDEW standard load profiles were NOT used as reference (licence not open); shape is checked for plausibility only"
+   },
+   {
+    "check": "load_cold_storage: peak vs 99.9th percentile",
+    "compared": "annual peak vs 99.9th percentile (spike test)",
+    "ours": 64.56,
+    "reference": 62.58,
+    "unit": "kW",
+    "diffPct": 3.17,
+    "tolerancePct": 25.0,
+    "status": "pass",
+    "note": "a peak far above the 99.9th percentile would suggest a meter artefact"
+   },
+   {
+    "check": "load_cold_storage: shape",
+    "compared": "weekday vs weekend mean, full-load hours",
+    "status": "info",
+    "weekdayMeanKW": 23.9,
+    "weekendMeanKW": 20.1,
+    "weekendToWeekday": 0.84,
+    "annualKWh": 199907,
+    "peakKW": 64.6,
+    "fullLoadHours": 3096,
+    "note": "BDEW standard load profiles were NOT used as reference (licence not open); shape is checked for plausibility only"
+   }
+  ],
+  "ev": [
+   {
+    "check": "EV energy per van per year",
+    "compared": "model year vs the same vans' source year (Jul 2021-Jun 2022)",
+    "ours": 5950.19,
+    "reference": 5965.7,
+    "unit": "kWh",
+    "diffPct": -0.26,
+    "tolerancePct": 5,
+    "status": "pass",
+    "note": "weekday mapping repeats or skips a few source days"
+   },
+   {
+    "check": "EV arrivals between 14:00 and 20:00",
+    "compared": "model year vs source, share of sessions",
+    "ours": 67.73,
+    "reference": 67.75,
+    "unit": "%",
+    "diffPct": -0.03,
+    "tolerancePct": 3,
+    "status": "pass",
+    "note": "same local clock time is kept"
+   },
+   {
+    "check": "EV uncontrolled daily shape vs Royal Mail depots",
+    "compared": "hour-of-day profile correlation, Optimise Prime WS2 table 32 (unmanaged charging days)",
+    "ours": 0.617,
+    "unit": "correlation",
+    "status": "info",
+    "note": "peak hour ours 20:00, Royal Mail 19:00; different fleets (vans charged at home vs postal depots)"
+   }
+  ],
+  "heat": [
+   {
+    "check": "Heat pump seasonal efficiency, radiator",
+    "compared": "our COP series, demand-weighted, vs Fraunhofer ISE field test mean (air-source, existing homes)",
+    "ours": 2.88,
+    "reference": 3.4,
+    "unit": "-",
+    "diffPct": -15.29,
+    "tolerancePct": 15,
+    "status": "flag",
+    "note": "field range 2.6-4.9; ISE press release 30/2025 'Waermepumpen heizen auch im Altbau klimafreundlich'"
+   },
+   {
+    "check": "Heat pump seasonal efficiency, floor",
+    "compared": "our COP series, demand-weighted, vs Fraunhofer ISE field test mean (air-source, existing homes)",
+    "ours": 3.36,
+    "reference": 3.4,
+    "unit": "-",
+    "diffPct": -1.18,
+    "tolerancePct": 15,
+    "status": "pass",
+    "note": "field range 2.6-4.9; ISE press release 30/2025 'Waermepumpen heizen auch im Altbau klimafreundlich'"
+   },
+   {
+    "check": "Space heat in Nov-Mar",
+    "compared": "share of annual space heating demand",
+    "ours": 74.2,
+    "unit": "%",
+    "status": "info",
+    "note": "BDEW commercial profile on Leipzig 2025-26 temperatures"
+   }
+  ],
+  "battery": [
+   {
+    "check": "battery defaults vs datasheet",
+    "status": "pass",
+    "note": "values transcribed from FoxESS TM215kWh-100kW-2hF datasheet V1.6; see battery_defaults.json"
+   }
+  ]
+ }
+}

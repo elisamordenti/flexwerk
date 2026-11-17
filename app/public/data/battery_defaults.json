@@ -1,0 +1,77 @@
+{
+ "chemistry": {
+  "value": "LFP (LiFePO4), 3.2 V / 280 Ah cells",
+  "source": "FoxESS T-MAX TM215kWh-100kW-2hF datasheet V1.6 (2026-06-15)",
+  "url": "https://www.fox-ess.com/Public/Uploads/uploadfile/files/20260710/ENTMAXDatasheetV1.620260615.pdf",
+  "read": "full datasheet (2 pages) read"
+ },
+ "energyKWhPerUnit": {
+  "value": 215,
+  "unit": "kWh",
+  "source": "FoxESS T-MAX TM215kWh-100kW-2hF datasheet V1.6 (2026-06-15)",
+  "url": "https://www.fox-ess.com/Public/Uploads/uploadfile/files/20260710/ENTMAXDatasheetV1.620260615.pdf",
+  "read": "full datasheet (2 pages) read"
+ },
+ "powerKWPerUnit": {
+  "value": 100,
+  "unit": "kW",
+  "note": "rated; 110 kW peak",
+  "source": "FoxESS T-MAX TM215kWh-100kW-2hF datasheet V1.6 (2026-06-15)",
+  "url": "https://www.fox-ess.com/Public/Uploads/uploadfile/files/20260710/ENTMAXDatasheetV1.620260615.pdf",
+  "read": "full datasheet (2 pages) read"
+ },
+ "roundTripEfficiency": {
+  "value": 0.89,
+  "unit": "-",
+  "note": "datasheet states '>89 %'; we use 0.89 (conservative). One-way = sqrt(0.89) = 0.943",
+  "source": "FoxESS T-MAX TM215kWh-100kW-2hF datasheet V1.6 (2026-06-15)",
+  "url": "https://www.fox-ess.com/Public/Uploads/uploadfile/files/20260710/ENTMAXDatasheetV1.620260615.pdf",
+  "read": "full datasheet (2 pages) read"
+ },
+ "depthOfDischarge": {
+  "value": [
+   0.0,
+   1.0
+  ],
+  "unit": "SoC fraction",
+  "note": "datasheet DOD 0-100 %",
+  "source": "FoxESS T-MAX TM215kWh-100kW-2hF datasheet V1.6 (2026-06-15)",
+  "url": "https://www.fox-ess.com/Public/Uploads/uploadfile/files/20260710/ENTMAXDatasheetV1.620260615.pdf",
+  "read": "full datasheet (2 pages) read"
+ },
+ "cycleLife": {
+  "value": 8000,
+  "unit": "cycles",
+  "atEndOfLifeSoH": 0.7,
+  "note": "'>=8000 @ 70 % EOL'; test conditions not stated on the datasheet",
+  "source": "FoxESS T-MAX TM215kWh-100kW-2hF datasheet V1.6 (2026-06-15)",
+  "url": "https://www.fox-ess.com/Public/Uploads/uploadfile/files/20260710/ENTMAXDatasheetV1.620260615.pdf",
+  "read": "full datasheet (2 pages) read"
+ },
+ "capexEurPerKWh": {
+  "value": 625,
+  "range": [
+   450,
+   800
+  ],
+  "unit": "EUR/kWh usable, incl. installation, excl. VAT",
+  "note": "range for battery storage with large rooftop PV in Germany 2024; 625 = midpoint of the cited range (our choice)",
+  "source": "Kost et al., Levelized Cost of Electricity - Renewable Energy Technologies, Fraunhofer ISE, July 2024, p. 13 and p. 20",
+  "url": "https://www.ise.fraunhofer.de/content/dam/ise/en/documents/publications/studies/EN2024_ISE_Study_Levelized_Cost_of_Electricity_Renewable_Energy_Technologies.pdf",
+  "read": "relevant sections (Table 1 notes, PV-battery LCOE paragraph) read"
+ },
+ "lifetimeYears": {
+  "value": 15,
+  "unit": "years",
+  "note": "ISE study assumption for battery storage",
+  "source": "Kost et al., Levelized Cost of Electricity - Renewable Energy Technologies, Fraunhofer ISE, July 2024, p. 13 and p. 20",
+  "url": "https://www.ise.fraunhofer.de/content/dam/ise/en/documents/publications/studies/EN2024_ISE_Study_Levelized_Cost_of_Electricity_Renewable_Energy_Technologies.pdf",
+  "read": "relevant sections (Table 1 notes, PV-battery LCOE paragraph) read"
+ },
+ "replacementCostEurPerKWh": {
+  "value": 625,
+  "unit": "EUR/kWh",
+  "note": "example choice: equal to today's capex. ISE notes replacement 'at reduced costs' without a figure.",
+  "source": "example choice"
+ }
+}
