@@ -2,6 +2,8 @@
 
 **A plant simulator for German commercial sites, running entirely in the browser.**
 
+**▶ Try it: [elisamordenti.github.io/flexwerk](https://elisamordenti.github.io/flexwerk/)**
+
 Build a site from parts (building load, rooftop solar, battery, electric van fleet, heat pump, grid connection), run it over real 2025–26 data in 15-minute steps, and watch the energy flow. Then compare control strategies, from simple rules to an optimiser that plans the battery, the vans and the heat pump **together**, and see what each one saves on a real German electricity bill.
 
 **Headline result (logistics depot, full year, realistic forecasts):** the joint planner saves **€20,930 a year** after battery wear, about twice what simple price rules achieve (€10,283). It keeps 74 % of what a planner that knew the future would save. Every van leaves charged, the building gets all its heat, and no grid limit is broken.
@@ -199,6 +201,8 @@ The full list, with how each limit could move the results, is in [LIMITS.md](LIM
 - **Speed:** the optimiser plans in 15-minute steps for the first 4 hours, then hourly. A full year takes about a minute per run, so the full-year table is pre-computed.
 
 ## 9. Run it yourself
+
+Or use the live version: https://elisamordenti.github.io/flexwerk/
 
 Needs Node 20+ (and Python 3.11+ only to rebuild the data).
 
